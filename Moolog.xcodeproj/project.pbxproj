@@ -45,6 +45,12 @@
 		C0C34E392CB7E9CC00299564 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C34E382CB7E9CC00299564 /* BaseCollectionViewCell.swift */; };
 		C0C34E3B2CB7EC7C00299564 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C34E3A2CB7EC7C00299564 /* TabBarController.swift */; };
 		C91953E32CBD15E100A1CED6 /* MoologTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91953E22CBD15E100A1CED6 /* MoologTests.swift */; };
+		C91953EA2CBD2CE300A1CED6 /* MoologMockNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91953E92CBD2CE300A1CED6 /* MoologMockNetworkTests.swift */; };
+		C91953EC2CBD2DFA00A1CED6 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91953EB2CBD2DFA00A1CED6 /* MockNetworkManager.swift */; };
+		C91953EE2CBD342C00A1CED6 /* TrendMovieMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C91953ED2CBD342C00A1CED6 /* TrendMovieMockData.json */; };
+		C91953F02CBD3B1D00A1CED6 /* TrendTVMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C91953EF2CBD3B1C00A1CED6 /* TrendTVMockData.json */; };
+		C91953F22CBD3C4D00A1CED6 /* SimilarMovieMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C91953F12CBD3C4D00A1CED6 /* SimilarMovieMockData.json */; };
+		C91953F42CBD3C5700A1CED6 /* SearchMovieMockData.json in Resources */ = {isa = PBXBuildFile; fileRef = C91953F32CBD3C5700A1CED6 /* SearchMovieMockData.json */; };
 		C91BDAC92CB8FFF0001E0595 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BDAC82CB8FFF0001E0595 /* MediaTableViewCell.swift */; };
 		C91BDACD2CB90AC8001E0595 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BDACC2CB90AC8001E0595 /* BaseView.swift */; };
 		C91BDACF2CB90BCA001E0595 /* MediaTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BDACE2CB90BCA001E0595 /* MediaTableView.swift */; };
@@ -125,6 +131,12 @@
 		C0C34E3A2CB7EC7C00299564 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		C91953E02CBD15E100A1CED6 /* MoologTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoologTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C91953E22CBD15E100A1CED6 /* MoologTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoologTests.swift; sourceTree = "<group>"; };
+		C91953E92CBD2CE300A1CED6 /* MoologMockNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoologMockNetworkTests.swift; sourceTree = "<group>"; };
+		C91953EB2CBD2DFA00A1CED6 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		C91953ED2CBD342C00A1CED6 /* TrendMovieMockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TrendMovieMockData.json; sourceTree = "<group>"; };
+		C91953EF2CBD3B1C00A1CED6 /* TrendTVMockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TrendTVMockData.json; sourceTree = "<group>"; };
+		C91953F12CBD3C4D00A1CED6 /* SimilarMovieMockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SimilarMovieMockData.json; sourceTree = "<group>"; };
+		C91953F32CBD3C5700A1CED6 /* SearchMovieMockData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SearchMovieMockData.json; sourceTree = "<group>"; };
 		C91BDAC82CB8FFF0001E0595 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
 		C91BDACC2CB90AC8001E0595 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		C91BDACE2CB90BCA001E0595 /* MediaTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableView.swift; sourceTree = "<group>"; };
@@ -229,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				C91953E22CBD15E100A1CED6 /* MoologTests.swift */,
+				C91953E92CBD2CE300A1CED6 /* MoologMockNetworkTests.swift */,
 			);
 			path = MoologTests;
 			sourceTree = "<group>";
@@ -236,6 +249,10 @@
 		C9A2E9EA2CB6C20600F99900 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C91953F32CBD3C5700A1CED6 /* SearchMovieMockData.json */,
+				C91953F12CBD3C4D00A1CED6 /* SimilarMovieMockData.json */,
+				C91953EF2CBD3B1C00A1CED6 /* TrendTVMockData.json */,
+				C91953ED2CBD342C00A1CED6 /* TrendMovieMockData.json */,
 				C0C34E2B2CB7B68600299564 /* Font */,
 				C9FBC35E2CB6574A00EBAE11 /* Assets.xcassets */,
 				C9FBC3602CB6574A00EBAE11 /* LaunchScreen.storyboard */,
@@ -271,6 +288,7 @@
 				C0925C0D2CB93737007EF2D5 /* Header.swift */,
 				C0925C0F2CB93825007EF2D5 /* Router.swift */,
 				C0925C112CB93953007EF2D5 /* NetworkManager.swift */,
+				C91953EB2CBD2DFA00A1CED6 /* MockNetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -681,11 +699,15 @@
 			files = (
 				C0C34E2F2CB7B6B400299564 /* Pretendard-Bold.otf in Resources */,
 				C9A2E9E92CB6BE6500F99900 /* .swiftlint.yml in Resources */,
+				C91953F22CBD3C4D00A1CED6 /* SimilarMovieMockData.json in Resources */,
 				C9FBC35F2CB6574A00EBAE11 /* Assets.xcassets in Resources */,
+				C91953F02CBD3B1D00A1CED6 /* TrendTVMockData.json in Resources */,
 				C9A2EA272CB6C58F00F99900 /* FavoriteCell in Resources */,
 				C0C34E2E2CB7B6B400299564 /* Pretendard-Medium.otf in Resources */,
 				C9FBC3622CB6574A00EBAE11 /* Base in Resources */,
 				C02BAA8C2CBC12E6008502B6 /* Secrets.xcconfig in Resources */,
+				C91953EE2CBD342C00A1CED6 /* TrendMovieMockData.json in Resources */,
+				C91953F42CBD3C5700A1CED6 /* SearchMovieMockData.json in Resources */,
 				C9A2E9F42CB6C2DC00F99900 /* EnumEmptyFile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -698,6 +720,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C91953E32CBD15E100A1CED6 /* MoologTests.swift in Sources */,
+				C91953EA2CBD2CE300A1CED6 /* MoologMockNetworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,6 +773,7 @@
 				C086B1F22CBBD4AE00AAEE54 /* MediaDetailViewModel.swift in Sources */,
 				C91BDAC92CB8FFF0001E0595 /* MediaTableViewCell.swift in Sources */,
 				C91BDB022CBBA76F001E0595 /* SearchCollectionViewCell.swift in Sources */,
+				C91953EC2CBD2DFA00A1CED6 /* MockNetworkManager.swift in Sources */,
 				A0D4EBD92CBBF85D00E82792 /* TrendMovieCollectionViewCell.swift in Sources */,
 				C0C34E332CB7E63E00299564 /* BaseViewController.swift in Sources */,
 				C0C34E312CB7BDF800299564 /* Constant.swift in Sources */,
