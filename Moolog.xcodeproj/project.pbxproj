@@ -44,6 +44,7 @@
 		C0C34E372CB7E94B00299564 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C34E362CB7E94B00299564 /* BaseTableViewCell.swift */; };
 		C0C34E392CB7E9CC00299564 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C34E382CB7E9CC00299564 /* BaseCollectionViewCell.swift */; };
 		C0C34E3B2CB7EC7C00299564 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C34E3A2CB7EC7C00299564 /* TabBarController.swift */; };
+		C91953E32CBD15E100A1CED6 /* MoologTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91953E22CBD15E100A1CED6 /* MoologTests.swift */; };
 		C91BDAC92CB8FFF0001E0595 /* MediaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BDAC82CB8FFF0001E0595 /* MediaTableViewCell.swift */; };
 		C91BDACD2CB90AC8001E0595 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BDACC2CB90AC8001E0595 /* BaseView.swift */; };
 		C91BDACF2CB90BCA001E0595 /* MediaTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BDACE2CB90BCA001E0595 /* MediaTableView.swift */; };
@@ -73,6 +74,16 @@
 		C9FBC35F2CB6574A00EBAE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FBC35E2CB6574A00EBAE11 /* Assets.xcassets */; };
 		C9FBC3622CB6574A00EBAE11 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C9FBC3612CB6574A00EBAE11 /* Base */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C91953E42CBD15E100A1CED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9FBC34A2CB6574A00EBAE11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9FBC3512CB6574A00EBAE11;
+			remoteInfo = Moolog;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A0221B062CB92E5B00FCFE9F /* FavoriteMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMovie.swift; sourceTree = "<group>"; };
@@ -112,6 +123,8 @@
 		C0C34E362CB7E94B00299564 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		C0C34E382CB7E9CC00299564 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		C0C34E3A2CB7EC7C00299564 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C91953E02CBD15E100A1CED6 /* MoologTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoologTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91953E22CBD15E100A1CED6 /* MoologTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoologTests.swift; sourceTree = "<group>"; };
 		C91BDAC82CB8FFF0001E0595 /* MediaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableViewCell.swift; sourceTree = "<group>"; };
 		C91BDACC2CB90AC8001E0595 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		C91BDACE2CB90BCA001E0595 /* MediaTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaTableView.swift; sourceTree = "<group>"; };
@@ -139,6 +152,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C91953DD2CBD15E100A1CED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9FBC34F2CB6574A00EBAE11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,6 +223,14 @@
 				C0C34E2C2CB7B6B300299564 /* Pretendard-Medium.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		C91953E12CBD15E100A1CED6 /* MoologTests */ = {
+			isa = PBXGroup;
+			children = (
+				C91953E22CBD15E100A1CED6 /* MoologTests.swift */,
+			);
+			path = MoologTests;
 			sourceTree = "<group>";
 		};
 		C9A2E9EA2CB6C20600F99900 /* Resources */ = {
@@ -518,6 +546,7 @@
 			children = (
 				C9A2E9E82CB6BE6500F99900 /* .swiftlint.yml */,
 				C9FBC3542CB6574A00EBAE11 /* Moolog */,
+				C91953E12CBD15E100A1CED6 /* MoologTests */,
 				C9FBC3532CB6574A00EBAE11 /* Products */,
 				C057BCDB2CBC3158003DEBE8 /* Recovered References */,
 			);
@@ -527,6 +556,7 @@
 			isa = PBXGroup;
 			children = (
 				C9FBC3522CB6574A00EBAE11 /* Moolog.app */,
+				C91953E02CBD15E100A1CED6 /* MoologTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -546,6 +576,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C91953DF2CBD15E100A1CED6 /* MoologTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91953E82CBD15E100A1CED6 /* Build configuration list for PBXNativeTarget "MoologTests" */;
+			buildPhases = (
+				C91953DC2CBD15E100A1CED6 /* Sources */,
+				C91953DD2CBD15E100A1CED6 /* Frameworks */,
+				C91953DE2CBD15E100A1CED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C91953E52CBD15E100A1CED6 /* PBXTargetDependency */,
+			);
+			name = MoologTests;
+			productName = MoologTests;
+			productReference = C91953E02CBD15E100A1CED6 /* MoologTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C9FBC3512CB6574A00EBAE11 /* Moolog */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9FBC3662CB6574A00EBAE11 /* Build configuration list for PBXNativeTarget "Moolog" */;
@@ -583,6 +631,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					C91953DF2CBD15E100A1CED6 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C9FBC3512CB6574A00EBAE11;
+					};
 					C9FBC3512CB6574A00EBAE11 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -610,11 +662,19 @@
 			projectRoot = "";
 			targets = (
 				C9FBC3512CB6574A00EBAE11 /* Moolog */,
+				C91953DF2CBD15E100A1CED6 /* MoologTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C91953DE2CBD15E100A1CED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9FBC3502CB6574A00EBAE11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -633,6 +693,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C91953DC2CBD15E100A1CED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91953E32CBD15E100A1CED6 /* MoologTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C9FBC34E2CB6574A00EBAE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -693,6 +761,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C91953E52CBD15E100A1CED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9FBC3512CB6574A00EBAE11 /* Moolog */;
+			targetProxy = C91953E42CBD15E100A1CED6 /* PBXContainerItemProxy */;
+		};
 		C9A2E9E72CB6B54900F99900 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = C9A2E9E62CB6B54900F99900 /* SwiftLintBuildToolPlugin */;
@@ -711,6 +784,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C91953E62CBD15E100A1CED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4W7695R5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isakatty.MoologTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moolog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moolog";
+			};
+			name = Debug;
+		};
+		C91953E72CBD15E100A1CED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T4W7695R5C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isakatty.MoologTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moolog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moolog";
+			};
+			name = Release;
+		};
 		C9FBC3642CB6574A00EBAE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C02BAA8B2CBC12E6008502B6 /* Secrets.xcconfig */;
@@ -903,6 +1022,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C91953E82CBD15E100A1CED6 /* Build configuration list for PBXNativeTarget "MoologTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91953E62CBD15E100A1CED6 /* Debug */,
+				C91953E72CBD15E100A1CED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C9FBC34D2CB6574A00EBAE11 /* Build configuration list for PBXProject "Moolog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
